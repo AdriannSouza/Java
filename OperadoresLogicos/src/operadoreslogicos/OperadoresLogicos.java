@@ -23,7 +23,6 @@ public class OperadoresLogicos {
         rc = (x < y || y == z)? true:false;
         //precisa que um dos dois seja verdadeiro.
         System.out.println(rc);
-        
         boolean rd;
         rd = (x < y ^ y == z)?true:false;
         //precisa que um ou exclusivamente outro seja verdadeiro, mesma lógica do || porém é falso quando ambos são verdadeiros.
